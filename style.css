@@ -5,7 +5,19 @@
 } 
 
 .Links{
-	float: right;
+	float: left;
+	color: black;
+    font-size: 28px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin-before: 0.67em;
+    margin-after: 0.67em;
+   	margin-start: 0px;
+    margin-end: 0px;
+
 }
 
  h1 {  
