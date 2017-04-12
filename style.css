@@ -1,21 +1,53 @@
 
 
-div {
+.mainBio {
+	float: left;
+} 
 
+.Links{
+	float: right;
 }
 
-img {
-	float: right: auto;
+ h1 {  
+    color: black;
+    font-size: 28px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: block;
+    font-size: 2em;
+    margin-before: 0.67em;
+    margin-after: 0.67em;
+   	margin-start: 0px;
+    margin-end: 0px;
+    background-color: grey;
+}
 
+ul {
+
+}
 
 p {
-	clear: both;
+	float: center;
 	font-family: "helvetica-nue", helvetica, serif;
 	font-style: inherit;
-	text-align: center;
+	text-align: left;
 }
 
-footer {
-
-
+.footer {
+	clear: both;
+	color: black
+    font-size: 8px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: block;
+    font-size: 2em;
+    margin-before: 0.67em;
+    margin-after: 0.67em;
+   	margin-start: 0px;
+    margin-end: 0px;
+    background-color: grey;
 }
