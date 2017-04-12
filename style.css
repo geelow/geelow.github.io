@@ -21,7 +21,7 @@
     margin-after: 0.67em;
    	margin-start: 0px;
     margin-end: 0px;
-    background-color: grey;
+    position: absolute;
 }
 
 ul {
@@ -33,21 +33,26 @@ p {
 	font-family: "helvetica-nue", helvetica, serif;
 	font-style: inherit;
 	text-align: left;
+	font-size: 32px;
+}
+
+.bio {
+	float: center;
+	position: relative;
 }
 
 .footer {
 	clear: both;
 	color: black
-    font-size: 8px;
+    font-size: 18px;
     font-weight: bolder;
     text-align: center;
     padding: 10px;
     margin-bottom: 20px;
     display: block;
-    font-size: 2em;
     margin-before: 0.67em;
     margin-after: 0.67em;
    	margin-start: 0px;
     margin-end: 0px;
-    background-color: grey;
+   
 }
