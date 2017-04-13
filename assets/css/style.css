@@ -1,0 +1,93 @@
+
+
+* {
+	box-sizing: border-box;
+}
+
+header,footer {
+	font-size: 24px;
+    font-family: "Copperplate Gothic Light", serif;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin: 5px;
+    padding:5px;
+    clear: both;
+}
+
+.blocks{
+	color: black;
+    font-size: 28px;
+    font-family: "Copperplate Gothic Light", serif;
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: block;
+    width: 45%;
+}
+
+img {
+	border-radius: 25px;
+	margin: 10px 10px 10px 10px;
+	float: left;
+	overflow: auto;
+	
+}
+
+p {
+	font-family: "Copperplate Gothic Light", serif;
+	text-align: left;
+	font-size: 18px;
+	margin-left: 0px;
+	overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.blocks1 {
+	color: black;
+    font-size: 18px;
+    font-family: "Copperplate Gothic Light", serif;
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px;
+    clear: left;
+    float: right;
+    width: 50%;
+    overflow: auto;
+}
+
+ul {
+	font-family: "Copperplate Gothic Light", serif;
+	list-style-type: none;
+	text-align: left;
+	font-weight: bold;
+	border: 0.5px;
+	padding: 0.5px;
+}
+
+a:link {
+    color: dodgerblue; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: deepskyblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    text-decoration: underline;
+}
+
